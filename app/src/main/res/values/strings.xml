@@ -1,3 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Music_app</string>
+    <string name="app_name">KINETIC</string>
+    <string name="nav_dashboard">Tổng quan</string>
+    <string name="nav_workout">Tập luyện</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_history">Lịch sử</string>
+
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="btn_register">TẠO TÀI KHOẢN</string>
+    <string name="btn_finish_workout">HOÀN THÀNH BUỔI TẬP</string>
+    <string name="btn_start_timer">Bắt đầu</string>
+    <string name="btn_stop_timer">Dừng</string>
+
+    <string name="label_rest_timer">Hẹn giờ nghỉ</string>
+    <string name="label_daily_energy">Năng lượng hàng ngày</string>
+    <string name="label_active_minutes">Phút hoạt động</string>
+    <string name="label_steps">Tổng số bước</string>
+    <string name="label_personal_records">Kỷ lục cá nhân</string>
+    <string name="label_volume_trend">Xu hướng khối lượng</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_weight">Kg</string>
+    <string name="hint_reps">Lần</string>
+    <string name="hint_search">Tìm kiếm bài tập…</string>
+
+    <string name="pr_title">KỶ LỤC CÁ NHÂN MỚI!</string>
+    <string name="pr_subtitle">NEW PERSONAL RECORD</string>
+    <string name="pr_continue">Tiếp tục tập luyện</string>
+    <string name="pr_share">Chia sẻ thành tích</string>
+
+    <string name="error_connection">Lỗi kết nối. Kiểm tra IP server XAMPP.</string>
+    <string name="error_fill_required">Vui lòng điền đầy đủ thông tin</string>
 </resources>

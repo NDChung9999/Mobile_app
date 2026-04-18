@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Kinetic Noir Palette -->
+    <color name="background">#0E0E0E</color>
+    <color name="surface">#0E0E0E</color>
+    <color name="surface_container_lowest">#000000</color>
+    <color name="surface_container_low">#131313</color>
+    <color name="surface_container">#191919</color>
+    <color name="surface_container_high">#1F1F1F</color>
+    <color name="surface_container_highest">#262626</color>
+    <color name="surface_bright">#2C2C2C</color>
+
+    <color name="primary">#8EFF71</color>
+    <color name="primary_dim">#2BE800</color>
+    <color name="on_primary">#0D6100</color>
+    <color name="primary_container">#2FF801</color>
+
+    <color name="secondary">#00FBFB</color>
+    <color name="secondary_dim">#00ECEC</color>
+    <color name="on_secondary">#005C5C</color>
+    <color name="secondary_container">#006A6A</color>
+
+    <color name="tertiary">#F3FFCA</color>
+    <color name="tertiary_dim">#BEEE00</color>
+    <color name="tertiary_container">#CAFD00</color>
+
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_variant">#ABABAB</color>
+    <color name="outline">#757575</color>
+    <color name="outline_variant">#484848</color>
+
+    <color name="error">#FF7351</color>
+
+    <!-- Semi-transparent tints for backgrounds -->
+    <color name="primary_20">#338EFF71</color>
+    <color name="secondary_20">#3300FBFB</color>
+    <color name="tertiary_20">#33F3FFCA</color>
+    <color name="surface_container_high_alpha">#CC1F1F1F</color>
 </resources>
