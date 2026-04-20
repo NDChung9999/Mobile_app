@@ -1,4 +1,4 @@
-package com.kinetic.fitness.ui
+package com.kinetic.fitness.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,8 +13,7 @@ class DashboardFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         return binding.root
@@ -23,15 +22,9 @@ class DashboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-        val kcal = 500
-        val steps = 8000
-        val activeMinutes = 45
-
-
-        binding.tvKcalValue.text = "$kcal kcal"
-        binding.tvSteps.text = "$steps steps"
-        binding.tvActiveMinutes.text = "$activeMinutes minutes"
+        binding.tvKcalValue.text = "1200 kcal"
+        binding.tvSteps.text = "3500 steps"
+        binding.tvActiveMinutes.text = "45 minutes"
     }
 
     override fun onDestroyView() {
