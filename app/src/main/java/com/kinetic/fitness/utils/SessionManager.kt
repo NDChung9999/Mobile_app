@@ -1,4 +1,3 @@
-
 package com.kinetic.fitness.utils
 
 import android.content.Context
@@ -42,3 +41,4 @@ class SessionManager private constructor(context: Context) {
         prefs.edit().clear().apply()
     }
 }
+

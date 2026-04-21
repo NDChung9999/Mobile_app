@@ -1,4 +1,3 @@
-
 package com.kinetic.fitness.data.api
 
 import android.content.Context
@@ -61,3 +60,4 @@ object RetrofitClient {
             .build()
     }
 }
+
