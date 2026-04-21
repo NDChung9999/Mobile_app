@@ -1,4 +1,3 @@
-
 package com.kinetic.fitness.ui.auth
 
 import android.content.Intent
@@ -146,3 +145,4 @@ class AuthViewModel : ViewModel() {
         } finally { _loading.value = false }
     }
 }
+
