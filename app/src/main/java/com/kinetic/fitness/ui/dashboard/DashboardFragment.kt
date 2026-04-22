@@ -1,4 +1,4 @@
-// C:/Users/User/Downloads/kinetic_fitness_android/kinetic_android/app/src/main/java/com/kinetic/fitness/ui/dashboard/DashboardFragment.kt
+
 package com.kinetic.fitness.ui.dashboard
 
 import android.content.Intent
